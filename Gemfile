@@ -20,7 +20,7 @@ gem 'mongoid', '~>5.1'
 
 gem 'bson', '4.2'
 
-gem 'rack-cors', '~>0.4', '>=0.4.0', :require => 'rack/cors'
+gem 'rack-cors', '~>1.0', :require => 'rack/cors'
 
 
 
