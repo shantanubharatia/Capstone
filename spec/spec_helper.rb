@@ -21,6 +21,7 @@ require_relative 'support/database_cleaners.rb'
 require_relative 'support/api_helper.rb'
 require_relative 'support/ui_helper.rb'
 
+DatabaseCleaner.allow_remote_database_url = true
 
 browser=:chrome
 Capybara.register_driver :selenium do |app|
