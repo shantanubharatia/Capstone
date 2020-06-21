@@ -1,7 +1,6 @@
 # 
 source 'https://rubygems.org'
 
-ruby '2.2.3'
 
 gem 'nokogiri', '~> 1.6.8'
 gem 'bson', '4.2'
