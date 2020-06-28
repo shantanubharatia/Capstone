@@ -1,0 +1,17 @@
+<div class="search-thing-list">
+    <div ng-show="$ctrl.types.length > 0">
+        <label for="filter">Filter by type:</label>
+        <select id="filter" ng-model="$ctrl.selectedType">
+            <option selected value="">---Please select a type---</option>
+            <option ng-repeat="option in $ctrl.types | orderBy: 'name'" value="{{option.id}}">{{option.name}}</option>
+        </select>
+    </div>
+    <ul>
+        <li ng-repeat="thing in $ctrl.things | orderBy:'name'">
+            <a ng-click="$ctrl.thingClicked(thing.id)">
+                <span class="thing_id id">{{thing.id}}</span>
+                {{thing.name}}
+            </a>
+        </li>
+    </ul>
+</div>
