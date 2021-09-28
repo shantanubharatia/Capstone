@@ -10,7 +10,7 @@ gem 'rails-api'
 
 gem 'pg', '~>0.19'
 
-gem 'nokogiri', '~> 1.6.8'
+gem 'nokogiri', '~> 1.12.5'
 
 gem 'sprockets', '~>3.5.2'
 
