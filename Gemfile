@@ -31,7 +31,7 @@ group :development do
 end
 
 group :development, :test do 
-	gem 'httparty', '~>0.14'
+	gem 'httparty', '~>0.21'
 	gem 'tzinfo-data', :platforms=>[:mingw, :mswin, :x64_mingw, :jruby]
 	gem 'rspec-rails', '~>3.5'
 	gem 'webrick', '~>1.3', :platforms=>[:mingw, :mswin, :x64_mingw, :jruby]
